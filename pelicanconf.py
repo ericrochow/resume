@@ -19,6 +19,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# THEME = "resume"
+THEME = "themes/resume"
+
 # Blogroll
 LINKS = (("Website", "https://ericroc.how"),)
 

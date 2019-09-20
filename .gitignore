@@ -2,6 +2,9 @@
 tags
 *.swp
 
+# rendered html
+output/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
