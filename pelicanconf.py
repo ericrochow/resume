@@ -55,17 +55,28 @@ SKILLS = [{"title": "", "level": "90"}]
 
 PROJECT_INTRO = ""
 
-PROJECTS = [{"title": "", "tagline": ""}]
+SIDE_PROJECTS = [{"title": "", "tagline": ""}]
 
-INTERESTS = [""]
+INTERESTS = [
+    "Home Automation",
+    "Lawncare",
+    "Liverpool FC",
+    "Science Fiction Novels",
+]
 
 EXPERIENCES = [
     {
         "job_title": "Network Engineer",
-        "time": "Oct 2011 - July 2015",
+        "time": "July 2015 - Present",
+        "Company": "Liquid Web",
+        "details": "",
+    },
+    {
+        "job_title": "Network Engineer",
+        "time": "October 2011 - July 2015",
         "company": "Spartan-Net, East Lansing, MI",
         "details": "description goes here",
-    }
+    },
 ]
 
 EDUCATIONS = [
@@ -75,4 +86,22 @@ EDUCATIONS = [
         "time": "2011",
     },
     {"degree": "High School", "meta": "Lansing Christian", "time": "2006"},
+]
+
+CERTIFICATIONS = [
+    {
+        "cert": "CCNP",
+        "meta": "Cisco Certified Network Professional",
+        "date": "2017 - Present",
+    },
+    {
+        "cert": "CCNA",
+        "meta": "Cisco Certified Network Associate",
+        "time": "2011 - Present",
+    },
+    {
+        "cert": "CCDA",
+        "meta": "Cisco Certified Network Associate",
+        "time": "2019 - Present",
+    },
 ]
