@@ -51,11 +51,33 @@ TWITTER = "@eric_rochow"
 
 CAREER_SUMMARY = ""
 
-SKILLS = [{"title": "", "level": "90"}]
+SKILLS = [
+    {"title": "OSPF", "level": "90"},
+    {"title": "BGP", "level": "80"},
+    {"title": "Python", "level": "60"},
+    {"title": "Ansible", "level": "60"},
+    {"title": "BASH", "level": "40"},
+    {"title": "Docker", "level": "40"},
+    {"title": "LXD", "level": "55"},
+]
 
 PROJECT_INTRO = ""
 
-SIDE_PROJECTS = [{"title": "", "tagline": ""}]
+SIDE_PROJECTS = [
+    {
+        "title": "ScrAPI",
+        "tagline": "A personal tool to collect data about myself from various"
+        " APIs and store them centrally to graph trends over time.",
+    },
+    {"title": "Archibald", "tagline": "My personal Slack butler."},
+    {
+        "title": "sdnify",
+        "tagline": "Tool to query various network operating systems and return"
+        " the results in a consistent model. More for my own personal fun than"
+        " being anything useful due to more mature (better) projects such as"
+        " nornir or NAPALM.",
+    },
+]
 
 INTERESTS = [
     "Home Automation",
@@ -64,18 +86,40 @@ INTERESTS = [
     "Science Fiction Novels",
 ]
 
+TOOLS = {
+    "EDITOR": "vim",
+    "CODE COMPLETION": "kite",
+    "OS": "Ubuntu 18.04",
+    "LANGUAGE": "Python 3",
+    "TEST SUITES": ["pytest", "flake8", "Bandit"],
+    "TERMINAL": "Tilix",
+    "COLOR THEME": "Solarized",
+}
+
 EXPERIENCES = [
     {
         "job_title": "Network Engineer",
         "time": "July 2015 - Present",
-        "Company": "Liquid Web",
+        "Company": "Liquid Web, Lansing, MI",
         "details": "",
+        "highlights": [
+            "Did the thing",
+            "Crushed it",
+            "Knocked it out of the park",
+        ],
     },
     {
         "job_title": "Network Engineer",
         "time": "October 2011 - July 2015",
         "company": "Spartan-Net, East Lansing, MI",
         "details": "description goes here",
+        "highlights": [],
+    },
+    {
+        "job_title": "IT Contractor",
+        "time": "2009 - 2011",
+        "company": "TEK Systems, West Michigan",
+        "details": "",
     },
 ]
 
@@ -103,5 +147,10 @@ CERTIFICATIONS = [
         "cert": "CCDA",
         "meta": "Cisco Certified Network Associate",
         "time": "2019 - Present",
+    },
+    {
+        "cert": "IPv6 Sage",
+        "meta": "Hurricane Electric IPv6 Certification",
+        "time": "2015 - Present",
     },
 ]
