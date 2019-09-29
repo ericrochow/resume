@@ -61,7 +61,10 @@ LINKEDIN = "erochow"
 GITHUB = "ericrochow"
 TWITTER = "@eric_rochow"
 
-CAREER_SUMMARY = ""
+CAREER_SUMMARY = (
+    "I like networks. I like Linux. I like building and integrating tools to"
+    " augement operating both. I hate buzzwords like SDN and Intent-based."
+)
 
 SKILLS = [
     {"title": "OSPF", "level": "90"},
@@ -93,12 +96,19 @@ SIDE_PROJECTS = [
     },
 ]
 
-INTERESTS = [
-    "Health and Wellness" "Home Automation",
+PERSONAL_INTERESTS = [
+    "Health and Wellness",
+    "Home Automation",
     "Lawncare",
     "Liverpool FC",
     "Running",
     "Science Fiction Novels",
+]
+
+TECHNICAL_INTERESTS = [
+    "Containerization",
+    "Routing",
+    "Slack Integration/ChatOps",
 ]
 
 PREFERENCES = {
@@ -117,8 +127,34 @@ EXPERIENCES = [
     {
         "job_title": "Network Engineer",
         "time": "July 2015 - Present",
-        "Company": "Liquid Web, Lansing, MI",
-        "details": "",
+        "company": "Liquid Web, Lansing, MI",
+        "company_summary": "Liquid Web is provider of dedicated, VPS, cloud,"
+        " and  managed application hosting solutions.",
+        "job_summary": "Report to the Director of Network and Security Operations;"
+        " serve as a key member on a team of 10 IT and networking"
+        " professionals. Manage three ASNs (AS32244, AS53824, AS201682) for"
+        " accessibility internally and for ~40K global customers. Direct"
+        "projects of variable size and complexity, either as a sole "
+        "contributor or team leader.",
+        "details": [
+            "<b>Configured, optimized, and maintained</b> network devices including"
+            " Cisco routers (IOS-XR), Cisco Nexus switches (NX-OS), and "
+            " legacy Cisco switching platforms (IOS), along with Cisco and"
+            " Palo Alto firewalls.",
+            "<b>Developed Python code</b> with flake8 linting; performed testing in"
+            " pytest and Bandit. Maintained version control through Git."
+            " Implementations varied between vanilla virtualenv installs to"
+            " containerized deployments.",
+            "<b>Proactively researched emerging trends</b> in networking, to develop"
+            " an in-depth understanding of the interactions among different"
+            " network applications and designed risk mitigation strategies for"
+            " averting conflicts and potential downtime.",
+            "<b>Automated notifications and workflow processes</b> with"
+            " ChatOps Slack bot tied in to various internal and external APIs."
+            "Delivered results that reduced individual task times as much as"
+            " 80±% and empowered fellow employees to focus on what's"
+            " important.",
+        ],
         "highlights": [
             "Did the thing",
             "Crushed it",
@@ -129,14 +165,39 @@ EXPERIENCES = [
         "job_title": "Network Engineer",
         "time": "October 2011 - July 2015",
         "company": "Spartan-Net, East Lansing, MI",
-        "details": "description goes here",
-        "highlights": [],
+        "company_summary": "Spartan-Net is a privately-owned Internet and"
+        " managed services provider.",
+        "job_summary": "Managed an explosive growth within tenure with a 50%"
+        " expansion of residential customers and facilitated the growth of the"
+        " new Enterprise Services portfolio. Developed improved business"
+        " processes and deployed new networking platforms/devices"
+        " that ensured network reliability, scalability, performance, and"
+        " sustainability for both wired and wireless networks.",
+        "details": [
+            "Drove all aspects of support for Cisco, Juniper, and"
+            " Alcatel Lucent switched Ethernet networks, along with"
+            " GPON networks using the Alcatel Lucent ISAM platform."
+            " Maintained Ubuntu Linux DNS, DHCP, Apache, MySQL,"
+            " and monitoring servers.",
+            "Developed configuration-generating scripts using Python with"
+            " Jinja2 for templates for IOS and Junos platforms,"
+            " speeding up deployment, while reducing initial errors.",
+            "Negotiated an additional 15&#37; in pricing discounts for Juniper"
+            " products, going from 45&#37; from 60%.",
+        ],
+        # "highlights": [],
     },
     {
         "job_title": "IT Contractor",
         "time": "2009 - 2011",
-        "company": "TEK Systems, West Michigan",
-        "details": "",
+        "company": "TEKSystems, West Michigan",
+        "company_summary": "TEKSystems is a talent-management firm"
+        " specializing in technology solutions.",
+        "job_summary": "Contract jobs during college ranging from one-day jobs"
+        " installing point-of-sale (POS) systems to multi-month engagements"
+        " offering helpdesk support.",
+        # "details": [],
+        # "highlights": [],
     },
 ]
 
