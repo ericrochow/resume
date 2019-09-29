@@ -91,8 +91,8 @@ SIDE_PROJECTS = [
         "title": "sdnify",
         "tagline": "Tool to query various network operating systems and return"
         " the results in a consistent model. More for my own personal fun than"
-        " being anything useful due to more mature (better) projects such as"
-        " nornir or NAPALM.",
+        " being anything useful due to more mature (read: better) projects"
+        " such as nornir or NAPALM.",
     },
 ]
 
@@ -128,8 +128,8 @@ EXPERIENCES = [
         "job_title": "Network Engineer",
         "time": "July 2015 - Present",
         "company": "Liquid Web, Lansing, MI",
-        "company_summary": "Liquid Web is provider of dedicated, VPS, cloud,"
-        " and  managed application hosting solutions.",
+        "company_summary": "Provider of dedicated, VPS, and  managed"
+        " application hosting solutions.",
         "job_summary": "Report to the Director of Network and Security Operations;"
         " serve as a key member on a team of 10 IT and networking"
         " professionals. Manage three ASNs (AS32244, AS53824, AS201682) for"
@@ -165,8 +165,7 @@ EXPERIENCES = [
         "job_title": "Network Engineer",
         "time": "October 2011 - July 2015",
         "company": "Spartan-Net, East Lansing, MI",
-        "company_summary": "Spartan-Net is a privately-owned Internet and"
-        " managed services provider.",
+        "company_summary": "Privately-owned Internet and managed services provider.",
         "job_summary": "Managed an explosive growth within tenure with a 50%"
         " expansion of residential customers and facilitated the growth of the"
         " new Enterprise Services portfolio. Developed improved business"
@@ -191,8 +190,7 @@ EXPERIENCES = [
         "job_title": "IT Contractor",
         "time": "2009 - 2011",
         "company": "TEKSystems, West Michigan",
-        "company_summary": "TEKSystems is a talent-management firm"
-        " specializing in technology solutions.",
+        "company_summary": "Talent-management firm specializing in technology solutions.",
         "job_summary": "Contract jobs during college ranging from one-day jobs"
         " installing point-of-sale (POS) systems to multi-month engagements"
         " offering helpdesk support.",
@@ -207,14 +205,18 @@ EDUCATION_HISTORY = [
         "meta": "Davenport University",
         "time": "2011",
     },
-    {"degree": "High School", "meta": "Lansing Christian", "time": "2006"},
+    {
+        "degree": "High School",
+        "meta": "Lansing Christian School",
+        "time": "2006",
+    },
 ]
 
 CERTIFICATIONS = [
     {
         "cert": "CCNP",
         "meta": "Cisco Certified Network Professional",
-        "date": "2017 - Present",
+        "time": "2017 - Present",
         "progress": "100",
         "valid": True,
     },
