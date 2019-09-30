@@ -29,7 +29,7 @@ AUTHOR_FEED_RSS = None
 THEME = "themes/resume"
 
 # Blogroll
-LINKS = (("Website", "https://ericroc.how"),)
+# LINKS = (("Website", "https://ericroc.how"),)
 
 # Social widget
 # SOCIAL = (
@@ -65,7 +65,7 @@ CAREER_SUMMARY = (
     "I like networks. I like Linux. I like building and integrating tools to"
     " augement the operations of both. I hate buzzwords like SDN and Intent-based."
     " I like it when things work. I don't like it when things don't work. I"
-    " <i>really</i> don't like when things work and noone knows why they work. I"
+    " <i>really</i> don't like when things work and nobody knows why they work. I"
     " like learning what makes things tick, and I like working with people"
     " that do too."
 )
@@ -142,7 +142,7 @@ EXPERIENCES = [
         "job_title": "Network Engineer",
         "time": "July 2015 - Present",
         "company": "Liquid Web, Lansing, MI",
-        "company_summary": "Provider of dedicated, VPS, and  managed"
+        "company_summary": "Liquid Web is a provider of dedicated, VPS, and  managed"
         " application hosting solutions.",
         "job_summary": "Report to the Director of Network and Security Operations;"
         " serve as a key member on a team of 10 IT and networking"
@@ -199,7 +199,8 @@ EXPERIENCES = [
         "job_title": "Network Engineer",
         "time": "October 2011 - July 2015",
         "company": "Spartan-Net, East Lansing, MI",
-        "company_summary": "Privately-owned Internet and managed services provider.",
+        "company_summary": "Spartan-Net is a privately-owned Internet and"
+        " managed services provider.",
         "job_summary": "Managed an explosive growth within tenure with a 50%"
         " expansion of residential customers and facilitated the growth of the"
         " new Enterprise Services portfolio. Developed improved business"
@@ -224,8 +225,8 @@ EXPERIENCES = [
         "job_title": "IT Contractor",
         "time": "2009 - 2011",
         "company": "TEKSystems, West Michigan",
-        "company_summary": "Talent-management firm specializing in technology"
-        " solutions.",
+        "company_summary": "TEKSystems is a talent-management firm specializing"
+        " in technology solutions.",
         "job_summary": "Contract jobs during college ranging from one-day jobs"
         " installing point-of-sale (POS) systems to multi-month engagements"
         " offering helpdesk support.",
