@@ -63,21 +63,31 @@ TWITTER = "@eric_rochow"
 
 CAREER_SUMMARY = (
     "I like networks. I like Linux. I like building and integrating tools to"
-    " augement operating both. I hate buzzwords like SDN and Intent-based."
+    " augement operating both. I hate buzzwords like SDN and Intent-based. I"
+    " like it when things work. I don't like not knowing why things work."
 )
 
-SKILLS = [
-    {"title": "OSPF", "level": "90"},
-    {"title": "BGP", "level": "80"},
-    {"title": "STP :(", "level": "90"},
-    {"title": "Python", "level": "60"},
-    {"title": "Linux", "level": 80},
-    {"title": "Ansible", "level": "60"},
-    {"title": "BASH", "level": "40"},
-    {"title": "Docker", "level": "40"},
-    {"title": "LXD", "level": "55"},
-]
-
+SKILLS = sorted(
+    [
+        {"title": "OSPF", "level": "90"},
+        {"title": "BGP", "level": "80"},
+        {"title": "STP :(", "level": "90"},
+        {"title": "Python", "level": "60"},
+        {"title": "Linux", "level": 80},
+        {"title": "Ansible", "level": "60"},
+        {"title": "BASH", "level": "40"},
+        {"title": "Docker", "level": "40"},
+        {"title": "LXD", "level": "55"},
+        {"title": "git", "level": "70"},
+        {"title": "IOS-XR", "level": "65"},
+        {"title": "NX-OS", "level": "80"},
+        {"title": "JunOS", "level": ""},
+        {"title": "FortiOS", "level": ""},
+        {"title": "PANOS", "level": ""},
+    ],
+    key=lambda skill: int(skill["level"]),
+    reverse=True,
+)
 PROJECT_INTRO = ""
 
 SIDE_PROJECTS = [
@@ -87,6 +97,7 @@ SIDE_PROJECTS = [
         " APIs and store them centrally to graph trends over time.",
     },
     {"title": "Archibald", "tagline": "My personal Slack butler."},
+    {"title": "ssslack", "tagline": "An API wrapper around Slack's WebAPI."},
     {
         "title": "sdnify",
         "tagline": "Tool to query various network operating systems and return"
@@ -190,7 +201,8 @@ EXPERIENCES = [
         "job_title": "IT Contractor",
         "time": "2009 - 2011",
         "company": "TEKSystems, West Michigan",
-        "company_summary": "Talent-management firm specializing in technology solutions.",
+        "company_summary": "Talent-management firm specializing in technology"
+        " solutions.",
         "job_summary": "Contract jobs during college ranging from one-day jobs"
         " installing point-of-sale (POS) systems to multi-month engagements"
         " offering helpdesk support.",
