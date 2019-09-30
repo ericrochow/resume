@@ -63,8 +63,11 @@ TWITTER = "@eric_rochow"
 
 CAREER_SUMMARY = (
     "I like networks. I like Linux. I like building and integrating tools to"
-    " augement operating both. I hate buzzwords like SDN and Intent-based. I"
-    " like it when things work. I don't like not knowing why things work."
+    " augement the operations of both. I hate buzzwords like SDN and Intent-based."
+    " I like it when things work. I don't like it when things don't work. I"
+    " <i>really</i> don't like when things work and noone knows why they work. I"
+    " like learning what makes things tick, and I like working with people"
+    " that do too."
 )
 
 SKILLS = sorted(
@@ -165,11 +168,31 @@ EXPERIENCES = [
             "Delivered results that reduced individual task times as much as"
             " 80±% and empowered fellow employees to focus on what's"
             " important.",
+            "<b>Achieved double-digit labor reduction percentages</b> in management"
+            " of network team server environments, with Ansible implementations.",
+            "<b>Managed data center end of life (EOL) refreshes.</b> Evaluated"
+            " hardware platform capabilities, HVAC and power requirements,"
+            " vendors, and pricing. Drafted budgets and detailed execution plans.",
+            "<b>Leveraged communications skills</b> in developing and facilitating"
+            " ongoing classroom training on networking topics such as"
+            " troubleshooting on Linux, DDoS mitigation tools, strategies, and others.",
         ],
         "highlights": [
-            "Did the thing",
-            "Crushed it",
-            "Knocked it out of the park",
+            "<b>Successfully completed assigned tasks</b>, meeting a time-critical"
+            " requirement in a $500K forklift overhaul of core infrastructure,"
+            " for the company’s largest region, with zero customer downtime.",
+            "Crafted a flawless migration to a spine-and-leaf FabricPath"
+            " architecture that provided a significant reduction in developer"
+            " cycles, while allowing customers to upgrade, downgrade, or"
+            " otherwise migrate their VPS, without their IP address changing.",
+            "<b>Overhauled DDoS mitigation abilities</b> with implementation of"
+            " Layer 3 inter-VRF routing, a software upgrade, addition of a"
+            " redundant in-line software vendor, and a cloud mitigation"
+            " scrubbing center, able to withstand over 100Gs of attack bandwidth.",
+            "<b>Slashed expenditures</b> - went from 67.5% to 80% discounts off"
+            " list for hardware with other concessions that included training"
+            " credits and better RMA options. Obtained unlimited use of"
+            " cloud-based DDoS scrubbing for less than the original 12-use/yr. proposal.",
         ],
     },
     {
@@ -261,6 +284,13 @@ CERTIFICATIONS = [
         "valid": False,
     },
     {
+        "cert": "CCIE",
+        "meta": "Cisco Certified Internetwork Expert",
+        "time": "In Progress",
+        "progress": "10",
+        "valid": False,
+    },
+    {
         "cert": "RHCSA",
         "meta": "Red Hat Certified System Administrator",
         "time": "2015 - 2018",
@@ -274,4 +304,13 @@ CERTIFICATIONS = [
         "progress": "100",
         "valid": False,
     },
+]
+
+COMPITENCIES = [
+    "Rapid Issue Resolution",
+    "Automation",
+    "Integration",
+    "Project Management",
+    "Vendor Management",
+    "Training",
 ]
