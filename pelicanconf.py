@@ -134,7 +134,7 @@ PREFERENCES = {
     "CODE_STYLE": "black",
     "LANGUAGE": "Python 3",
     "TEST_SUITES": ["pytest", "flake8", "Bandit"],
-    "PRONOUNS": "he/him",
+    "PRONOUNS": ["he", "him"],
 }
 
 EXPERIENCES = [
@@ -192,7 +192,8 @@ EXPERIENCES = [
             "<b>Slashed expenditures</b> - went from 67.5% to 80% discounts off"
             " list for hardware with other concessions that included training"
             " credits and better RMA options. Obtained unlimited use of"
-            " cloud-based DDoS scrubbing for less than the original 12-use/yr. proposal.",
+            " cloud-based DDoS scrubbing for less than the original 12-use per"
+            " year vendor proposal.",
         ],
     },
     {
