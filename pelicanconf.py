@@ -5,7 +5,7 @@ from datetime import datetime
 
 AUTHOR = "Eric Rochow"
 SITENAME = "Eric Rochow Resume"
-SITEURL = "http://127.0.0.1:8000"
+SITEURL = "https://resume.ericroc.how"
 # SITEURL = "https://resume.ericroc.how"
 UPDATED_DATE = datetime.now().strftime("%B %d, %Y")
 
