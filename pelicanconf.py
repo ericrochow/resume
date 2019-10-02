@@ -121,6 +121,7 @@ PERSONAL_INTERESTS = [
 
 TECHNICAL_INTERESTS = [
     "Containerization",
+    "Go",
     "Routing",
     "Slack Integration/ChatOps",
 ]
@@ -311,6 +312,7 @@ CERTIFICATIONS = [
 COMPITENCIES = [
     "Rapid Issue Resolution",
     "Automation",
+    "API Integration",
     "Integration",
     "Project Management",
     "Vendor Management",
