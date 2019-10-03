@@ -242,11 +242,13 @@ EDUCATION_HISTORY = [
         "degree": "B.S. in Computer Networking",
         "meta": "Davenport University",
         "time": "2011",
+        "gpa": "3.98",
     },
     {
         "degree": "High School",
         "meta": "Lansing Christian School",
         "time": "2006",
+        "gpa": "3.6",
     },
 ]
 
