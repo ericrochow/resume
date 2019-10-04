@@ -121,6 +121,7 @@ PERSONAL_INTERESTS = [
 
 TECHNICAL_INTERESTS = [
     "Containerization",
+    "EVPN",
     "Go",
     "Routing",
     "Slack Integration/ChatOps",
