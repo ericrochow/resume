@@ -52,6 +52,7 @@ EXTRA_PATH_METADATA = {
     "extra/robots.txt": {"path": "robots.txt"},
     "extra/favicon.ico": {"path": "favicon.ico"},
 }
+ROBOTS = "index, follow"
 
 # Sidebar links
 EMAIL = "ericrochow@gmail.com"
