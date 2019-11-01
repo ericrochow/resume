@@ -4,6 +4,8 @@ executors:
   pelican-executor:
     docker:
       - image: circleci/python3.6
+    environment:
+      LOCALE: en_US.utf8
 
 commands:
   install-pelican:
@@ -30,27 +32,24 @@ commands:
             - "/usr/local/lib/python3.6/site-packages"
   build-site:
     steps:
-      - run:
-          command: |
-            pelican content -o docs -s pelicanconf.py
+      - run: pipenv run pelican content -o docs -s pelicanconf.py
   commit-site:
     steps:
-      - run:
+      - deploy:
+          name: "Trigger content deployment"
           command: |
-            git commit -am "circleci cd push {{ .Branch }}" docs/
-            git push
+            git config credential.helper "cache --timeout=120"
+            git config user.email "ericroc.how@gmail.com"
+            git config user.name "DeployTron 9000"
+            git commit -am "circleci content push [skip ci]"
+            git push -q https://${DOCS_GITHUB_TOKEN}@github.com/ericrochow/resume.git master
 
 jobs:
   build:
     executor: pelican-executor
-    working-directory: ""
+    working-directory: "~/resume"
     steps:
       - install-pelican
-      - add_ssh_keys
-      - run:
-          name: "Add Host Fingerprints"
-          command: |
-          echo "$known_hosts" > ~/.ssh/known_hosts
       - build-site
       - commit-site
 
