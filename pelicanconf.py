@@ -286,9 +286,9 @@ CERTIFICATIONS = [
     {
         "cert": "CCDP",
         "meta": "Cisco Certified Design Professional",
-        "time": "In Progress",
-        "progress": "75",
-        "valid": False,
+        "time": "2019 - Present",
+        "progress": "100",
+        "valid": True,
     },
     {
         "cert": "CCIE",
