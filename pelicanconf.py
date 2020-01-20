@@ -66,8 +66,8 @@ CAREER_SUMMARY = (
     "I like networks. I like Linux. I like building and integrating tools to"
     " augement the operations of both. I hate buzzwords like SDN and Intent-based."
     " I like it when things work. I don't like it when things don't work. I"
-    " <i>really</i> don't like when things work and nobody knows why they work. I"
-    " like learning what makes things tick, and I like working with people"
+    " <i>really</i> don't like when things work and nobody knows how or why they work."
+    " I like learning what makes things tick, and I like working with people"
     " that do too."
 )
 
