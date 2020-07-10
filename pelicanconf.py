@@ -129,21 +129,34 @@ TECHNICAL_INTERESTS = [
 ]
 
 PREFERENCES = {
-    "OS": "Ubuntu 18.04",
+    "OS": ["Ubuntu 20.04", "Arch"],
     "EDITOR": "vim",
-    "TERMINAL": "Tilix",
+    "TERMINAL": "KiTTY",
     "COLOR_THEME": "Solarized",
     "CODE_COMPLETION": "kite",
     "CODE_STYLE": "black",
     "LANGUAGE": "Python 3",
     "TEST_SUITES": ["pytest", "flake8", "Bandit"],
-    "PRONOUNS": ["he", "him"],
+    "PRONOUNS": ["he", "him", "his"],
 }
 
 EXPERIENCES = [
     {
         "job_title": "Network Engineer",
-        "time": "July 2015 - Present",
+        "time": "March 2020 - Present",
+        "company": "MSU Federal Credit Union",
+        "company_summary": "MSU Federal Credit Union is the largest university-based "
+        "credit union in the world and is federally chartered and regulated under the "
+        "National Credit Union Administration (NCUA). MSUFCU provides a variety of "
+        "financial products and services including deposit accounts, personal and "
+        "business loans, investments, and insurance, among others.",
+        # "job_summary": "Report to the Network Manager and CISO",
+        # "details": [],
+        # "highlights": [],
+    },
+    {
+        "job_title": "Network Engineer",
+        "time": "July 2015 - March 2020",
         "company": "Liquid Web, Lansing, MI",
         "company_summary": "Liquid Web is a provider of dedicated, VPS, and  managed"
         " application hosting solutions.",
@@ -273,6 +286,13 @@ CERTIFICATIONS = [
         "cert": "CCDA",
         "meta": "Cisco Certified Network Associate",
         "time": "2019 - Present",
+        "progress": "100",
+        "valid": True,
+    },
+    {
+        "cert": "DevNet Associate",
+        "meta": "Cisco Certified DevNet Associate",
+        "time": "2020 - Present",
         "progress": "100",
         "valid": True,
     },
