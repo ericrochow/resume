@@ -102,13 +102,6 @@ SIDE_PROJECTS = [
     },
     {"title": "Archibald", "tagline": "My personal Slack butler."},
     {"title": "ssslack", "tagline": "An API wrapper around Slack's WebAPI."},
-    {
-        "title": "sdnify",
-        "tagline": "Tool to query various network operating systems and return"
-        " the results in a consistent model. More for my own personal fun than"
-        " being anything useful due to more mature (read: better) projects"
-        " such as nornir or NAPALM.",
-    },
 ]
 
 PERSONAL_INTERESTS = [
