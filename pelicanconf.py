@@ -102,6 +102,10 @@ SIDE_PROJECTS = [
     },
     {"title": "Archibald", "tagline": "My personal Slack butler."},
     {"title": "ssslack", "tagline": "An API wrapper around Slack's WebAPI."},
+    {
+        "title": "graylogging",
+        "tagline": "A Python logging handler that outputs to Graylog",
+    },
 ]
 
 PERSONAL_INTERESTS = [
