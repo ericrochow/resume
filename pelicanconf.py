@@ -142,11 +142,11 @@ EXPERIENCES = [
         "job_title": "Network Engineer",
         "time": "March 2020 - Present",
         "company": "MSU Federal Credit Union",
-        "company_summary": "MSU Federal Credit Union is the largest university-based "
-        "credit union in the world and is federally chartered and regulated under the "
-        "National Credit Union Administration (NCUA). MSUFCU provides a variety of "
-        "financial products and services including deposit accounts, personal and "
-        "business loans, investments, and insurance, among others.",
+        "company_summary": "MSU Federal Credit Union is the largest university-based"
+        " credit union in the world and is federally chartered and regulated under the"
+        " National Credit Union Administration (NCUA). MSUFCU provides a variety of"
+        " financial products and services including deposit accounts, personal and"
+        " business loans, investments, and insurance, among others.",
         "job_summary": "Report to the Network Manager and CISO; serve as an"
         " authority on automation, programmability, and network assurance.",
         "details": [
@@ -159,8 +159,8 @@ EXPERIENCES = [
         "highlights": [
             "<b>Successfully deployed ThousandEyes monitoring</b> for the"
             " Credit Union's websites, including sythetic transaction testing"
-            " of the Member portal for online banking.",
-        ]
+            " of the Member portal for online banking."
+        ],
     },
     {
         "job_title": "Network Engineer",
