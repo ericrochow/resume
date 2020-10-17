@@ -160,6 +160,7 @@ EXPERIENCES = [
             "<b>Successfully deployed ThousandEyes monitoring</b> for the"
             " Credit Union's websites, including sythetic transaction testing"
             " of the Member portal for online banking.",
+        ]
     },
     {
         "job_title": "Network Engineer",
