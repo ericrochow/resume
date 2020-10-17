@@ -127,7 +127,7 @@ TECHNICAL_INTERESTS = [
 
 PREFERENCES = {
     "OS": ["Ubuntu 20.04", "Arch"],
-    "EDITOR": "vim # customized",
+    "EDITOR": "vim",
     "TERMINAL": "KiTTY",
     "COLOR_THEME": "Nord",
     "CODE_COMPLETION": "kite",
