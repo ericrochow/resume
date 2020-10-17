@@ -76,7 +76,7 @@ SKILLS = sorted(
         {"title": "OSPF", "level": "90"},
         {"title": "BGP", "level": "80"},
         {"title": "STP :(", "level": "90"},
-        {"title": "Python", "level": "60"},
+        {"title": "Python", "level": "70"},
         {"title": "Linux", "level": 80},
         {"title": "Ansible", "level": "60"},
         {"title": "BASH", "level": "40"},
@@ -86,7 +86,7 @@ SKILLS = sorted(
         {"title": "IOS-XR", "level": "65"},
         {"title": "NX-OS", "level": "80"},
         {"title": "JunOS", "level": "55"},
-        {"title": "FortiOS", "level": "30"},
+        {"title": "FortiOS", "level": "40"},
         {"title": "PANOS", "level": "40"},
     ],
     key=lambda skill: int(skill["level"]),
@@ -96,16 +96,16 @@ PROJECT_INTRO = ""
 
 SIDE_PROJECTS = [
     {
+        "title": "graylogging",
+        "tagline": "A Python logging handler that outputs to Graylog.",
+    },
+    {
         "title": "ScrAPI",
         "tagline": "A personal tool to collect data about myself from various"
         " APIs and store them centrally to graph trends over time.",
     },
     {"title": "Archibald", "tagline": "My personal Slack butler."},
     {"title": "ssslack", "tagline": "An API wrapper around Slack's WebAPI."},
-    {
-        "title": "graylogging",
-        "tagline": "A Python logging handler that outputs to Graylog",
-    },
 ]
 
 PERSONAL_INTERESTS = [
@@ -127,9 +127,9 @@ TECHNICAL_INTERESTS = [
 
 PREFERENCES = {
     "OS": ["Ubuntu 20.04", "Arch"],
-    "EDITOR": "vim",
+    "EDITOR": "vim # customized",
     "TERMINAL": "KiTTY",
-    "COLOR_THEME": "Solarized",
+    "COLOR_THEME": "Nord",
     "CODE_COMPLETION": "kite",
     "CODE_STYLE": "black",
     "LANGUAGE": "Python 3",
@@ -147,9 +147,19 @@ EXPERIENCES = [
         "National Credit Union Administration (NCUA). MSUFCU provides a variety of "
         "financial products and services including deposit accounts, personal and "
         "business loans, investments, and insurance, among others.",
-        # "job_summary": "Report to the Network Manager and CISO",
-        # "details": [],
-        # "highlights": [],
+        "job_summary": "Report to the Network Manager and CISO; serve as an"
+        " authority on automation, programmability, and network assurance.",
+        "details": [
+            "<b>Develop Python code</b> for network automation and assurance,"
+            " using the nornir, genie, pyats, and requests libraries.",
+            "<b>Plan greenfield datacenter migration</b> including moving from"
+            " a traditional three-tier network to a modern datacenter network"
+            " network architecture.",
+        ],
+        "highlights": [
+            "<b>Successfully deployed ThousandEyes monitoring</b> for the"
+            " Credit Union's websites, including sythetic transaction testing"
+            " of the Member portal for online banking.",
     },
     {
         "job_title": "Network Engineer",
@@ -292,6 +302,13 @@ CERTIFICATIONS = [
         "time": "2020 - Present",
         "progress": "100",
         "valid": True,
+    },
+    {
+        "cert": "DevNet Professional",
+        "meta": "Cisco Certified DevNet Professional",
+        "time": "In Progress",
+        "progress": "30",
+        "valid": False
     },
     {
         "cert": "IPv6 Sage",
