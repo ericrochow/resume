@@ -305,13 +305,6 @@ CERTIFICATIONS = [
         "valid": True,
     },
     {
-        "cert": "DevNet Professional",
-        "meta": "Cisco Certified DevNet Professional",
-        "time": "In Progress",
-        "progress": "30",
-        "valid": False
-    },
-    {
         "cert": "IPv6 Sage",
         "meta": "Hurricane Electric IPv6 Certification",
         "time": "2015 - Present",
@@ -324,6 +317,13 @@ CERTIFICATIONS = [
         "time": "2019 - Present",
         "progress": "100",
         "valid": True,
+    },
+    {
+        "cert": "DevNet Professional",
+        "meta": "Cisco Certified DevNet Professional",
+        "time": "In Progress",
+        "progress": "30",
+        "valid": False
     },
     {
         "cert": "CCIE",
