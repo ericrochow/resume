@@ -158,7 +158,8 @@ EXPERIENCES = [
         " financial products and services including deposit accounts, personal and"
         " business loans, investments, and insurance, among others.",
         "job_summary": "Report to the Network Manager and CISO; serve as an"
-        " authority on automation, programmability, and network assurance.",
+        " authority on network design, automation, programmability, and"
+        " network assurance.",
         "details": [
             "<b>Configured, optimized, and maintained</b> network devices"
             " including Cisco campus routers and switches (IOS-XE), Cisco"
