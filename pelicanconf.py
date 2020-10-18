@@ -100,12 +100,22 @@ SIDE_PROJECTS = [
         "tagline": "A Python logging handler that outputs to Graylog.",
     },
     {
-        "title": "ScrAPI",
-        "tagline": "A personal tool to collect data about myself from various"
-        " APIs and store them centrally to graph trends over time.",
+        "title": "ericroc.how",
+        "tagline": "My main website. A fun opportunity to play with static"
+        " website creation and create a CICD pipeline."
     },
-    {"title": "Archibald", "tagline": "My personal Slack butler."},
-    {"title": "ssslack", "tagline": "An API wrapper around Slack's WebAPI."},
+    {
+        "title": "resume.ericroc.how",
+        "tagline": "This website! A fun opportunity to take something"
+        " relatively simple and create a CICD pipeline."
+    },
+    # {
+        # "title": "ScrAPI",
+        # "tagline": "A personal tool to collect data about myself from various"
+        # " APIs and store them centrally to graph trends over time.",
+    # },
+    # {"title": "Archibald", "tagline": "My personal Slack butler."},
+    # {"title": "ssslack", "tagline": "An API wrapper around Slack's WebAPI."},
 ]
 
 PERSONAL_INTERESTS = [
@@ -150,6 +160,9 @@ EXPERIENCES = [
         "job_summary": "Report to the Network Manager and CISO; serve as an"
         " authority on automation, programmability, and network assurance.",
         "details": [
+            "<b>Configured, optimized, and maintained</b> network devices"
+            " including Cisco campus routers and switches (IOS-XE), Cisco"
+            " Nexus switches (NX-OS).",
             "<b>Develop Python code</b> for network automation and assurance,"
             " using the nornir, genie, pyats, and requests libraries.",
             "<b>Plan greenfield datacenter migration</b> including moving from"
