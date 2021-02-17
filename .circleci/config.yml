@@ -29,7 +29,7 @@ commands:
           paths:
             - "venv"
             - "/usr/local/bin"
-            - "/usr/local/lib/python3.6/site-packages"
+            - "/usr/local/lib/python3.9/site-packages"
   build-site:
     steps:
       - run: pipenv run pelican content -o docs -s pelicanconf.py
