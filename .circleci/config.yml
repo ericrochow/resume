@@ -3,7 +3,7 @@ version: 2.1
 executors:
   pelican-executor:
     docker:
-      - image: circleci/python:3.6
+      - image: circleci/python:3.9
     environment:
       LOCALE: en_US.utf8
 
@@ -12,7 +12,7 @@ commands:
     steps:
       - checkout
       - run: sudo chown -R circleci.circleci /usr/local/bin
-      - run: sudo chown -R circleci.circleci /usr/local/lib/python3.6/site-packages
+      - run: sudo chown -R circleci.circleci /usr/local/lib/python3.9/site-packages
       - run:
           name: "Pull Submodules"
           command: |
