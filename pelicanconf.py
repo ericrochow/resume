@@ -64,11 +64,11 @@ TWITTER = "@eric_rochow"
 
 CAREER_SUMMARY = (
     "I like networks. I like Linux. I like building and integrating tools to"
-    " augement the operations of both. I hate buzzwords like SDN and Intent-based."
-    " I like it when things work. I don't like it when things don't work. I"
-    " <i>really</i> don't like when things work and nobody knows how or why they work."
-    " I like learning what makes things tick, and I like working with people"
-    " that do too."
+    " augement the operations of both. I hate loaded buzzwords like SDN and"
+    " Intent-based. I like it when things work. I don't like it when things don't"
+    " work. I <i>really</i> don't like when things work and nobody knows how or"
+    " why they work. I like learning what makes things tick, and I like working"
+    " with people that do too."
 )
 
 SKILLS = sorted(
@@ -80,7 +80,7 @@ SKILLS = sorted(
         {"title": "Linux", "level": 80},
         {"title": "Ansible", "level": "60"},
         {"title": "BASH", "level": "40"},
-        {"title": "Docker", "level": "40"},
+        {"title": "Docker", "level": "55"},
         {"title": "LXD", "level": "55"},
         {"title": "git", "level": "70"},
         {"title": "IOS-XR", "level": "65"},
