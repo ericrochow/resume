@@ -102,17 +102,17 @@ SIDE_PROJECTS = [
     {
         "title": "ericroc.how",
         "tagline": "My main website. A fun opportunity to play with static"
-        " website creation and create a CICD pipeline."
+        " website creation and create a CICD pipeline.",
     },
     {
         "title": "resume.ericroc.how",
         "tagline": "This website! A fun opportunity to take something"
-        " relatively simple and create a CICD pipeline."
+        " relatively simple and create a CICD pipeline.",
     },
     # {
-        # "title": "ScrAPI",
-        # "tagline": "A personal tool to collect data about myself from various"
-        # " APIs and store them centrally to graph trends over time.",
+    # "title": "ScrAPI",
+    # "tagline": "A personal tool to collect data about myself from various"
+    # " APIs and store them centrally to graph trends over time.",
     # },
     # {"title": "Archibald", "tagline": "My personal Slack butler."},
     # {"title": "ssslack", "tagline": "An API wrapper around Slack's WebAPI."},
@@ -132,6 +132,7 @@ TECHNICAL_INTERESTS = [
     "EVPN",
     "Go",
     "Routing",
+    "Rust",
     "Slack Integration/ChatOps",
 ]
 
@@ -337,7 +338,7 @@ CERTIFICATIONS = [
         "meta": "Cisco Certified DevNet Professional",
         "time": "In Progress",
         "progress": "30",
-        "valid": False
+        "valid": False,
     },
     {
         "cert": "CCIE",
